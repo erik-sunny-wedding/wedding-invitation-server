@@ -31,6 +31,6 @@ func main() {
 	})
 
 	handler := corHandler.Handler(mux)
-
-	http.ListenAndServe(":8080", handler)
+	// http.ListenAndServe(":8080", handler)
+	http.ListenAndServe(":443", handler)
 }
